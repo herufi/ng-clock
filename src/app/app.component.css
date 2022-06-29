@@ -1,5 +1,5 @@
 body {
-  background: rgb(13, 186, 230);
+  background: rgb(6, 53, 65);
   color: #333;
   font-family: Helvetica, sans-serif;
 }
@@ -221,4 +221,24 @@ If it pre-rotates the hands, then the hands will not perform 1 turn at their nor
   to {
     transform: rotate(1turn);
   }
+}
+
+h1 {text-align: center;
+  color: #d00;
+}
+span {text-align: center;
+}
+
+.aligned{
+  display: flex;
+  align-items: center;
+}
+body{
+  background-color: darkslategrey;
+}
+u { 
+  text-decoration: underline;
+}
+h3{
+  text-align: center;
 }

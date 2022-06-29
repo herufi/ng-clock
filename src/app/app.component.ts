@@ -36,4 +36,7 @@ export class AppComponent {
       divTag.style.transform = "rotate(" + angle + "deg)";
     }
   }
+  login(){
+    alert(' welcome you are loged in')
+  }
 }
