@@ -8,6 +8,7 @@ import { CatsComponent } from './cats/cats.component';
 })
 export class AppComponent {
   title = 'ng-clock';
+  hours = new Array(12);
 
   dateInfo = new Date();
   hr = this.dateInfo.getHours() > 12 ? this.dateInfo.getHours() - 12 : this.dateInfo.getHours();
@@ -39,4 +40,9 @@ export class AppComponent {
   login(){
     alert(' welcome you are loged in')
   }
+  firstname: string = '';
+  lastname: string = '';
+  password: string = '';
+
 }
+

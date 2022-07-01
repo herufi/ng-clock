@@ -12,12 +12,12 @@ a {
 
   .topnav{
     overflow: hidden;
-    background-color: blue;
+    background-color: rgb(22, 5, 5);
   }
 
   .topnav a{
     float: left;
-    color: black;
+    color: rgb(238, 226, 226);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,10 +29,7 @@ a {
     color: rgb(27, 118, 197);
   }
 
-  .topnav a.active{
-    background-color: rgb(170, 170, 16);
-    color: black;
-  }
+  
 
   .topnav-right {
     float: right;
